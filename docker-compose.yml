@@ -1,0 +1,28 @@
+version: '3'
+services:
+  db:  ## DO NOT CHANGE this name!
+    container_name: myapp-db
+    build:
+      context: ./mariadb
+      dockerfile: Dockerfile
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=pass
+
+  web:
+    container_name: myapp-web
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      spring.datasource.maestroweb.jdbcUrl: jdbc:mariadb://db:3306/maestroweb
+      spring.datasource.maestroweb.username: maestroweb ## DO NOT CHANGE!
+      spring.datasource.maestroweb.password: maestro ## DO NOT CHANGE!
+      spring.datasource.sotorrent.jdbcUrl: jdbc:mariadb://db:3306/sotorrent20_06
+      spring.datasource.sotorrent.username: sotorrent ## DO NOT CHANGE!
+      spring.datasource.sotorrent.password: sotorrent ## DO NOT CHANGE!
+    depends_on:
+      - db

@@ -1,0 +1,13 @@
+This work is licensed under a CC-BY-NC-ND 4.0.
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Modification and reverse engineering is permitted only to the extent permitted by GNU LESSER GENERAL PUBLIC LICENSE Version 2.1, which is applied to "mariadb java client 2.7.2".
+
+The following files are licensed under a CC-BY-SA 3.0 according to "Stack Exchange Data Dump". Please follow the instructions in https://archive.org/details/stackexchange .
+* mariadb/1-sotorrent_schema.sql
+* mariadb/2-sotorrent_ExceptionIndex.sql
+* mariadb/3-sotorrent_JavaPosts.sql-00
+* mariadb/3-sotorrent_JavaPosts.sql-01
+* mariadb/4-sotorrent_PDGs.sql-00
+* mariadb/4-sotorrent_PDGs.sql-01
+* mariadb/4-sotorrent_PDGs.sql-02

@@ -1,0 +1,12 @@
+この作品はCC-BY-NC-ND4.0の下に提供されています。
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+"mariadb java client 2.7.2" に適用された GNU LESSER GENERAL PUBLIC LICENSE Version 2.1 により許諾される範囲に限り、改造とリバースエンジニアリングを許諾します。
+
+以下のファイルはStackExchangeDataDumpに従い、CC-BY-SA3.0の下で提供されます。その際 https://archive.org/details/stackexchange の指示に従って下さい。
+* mariadb/1-sotorrent_schema.sql
+* mariadb/2-sotorrent_ExceptionIndex.sql
+* mariadb/3-sotorrent_JavaPosts.sql-00
+* mariadb/3-sotorrent_JavaPosts.sql-01
+* mariadb/4-sotorrent_PDGs.sql-00
+* mariadb/4-sotorrent_PDGs.sql-01
+* mariadb/4-sotorrent_PDGs.sql-02

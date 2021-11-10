@@ -8,7 +8,7 @@ $ docker-compose up
 ```
 myapp-db | 2021-05-14  3:01:40 0 [Note] mysqld: ready for connections.
 ```
-* Access to [web frontend](http://localhost)
+* Access to [web frontend](http://localhost:8080)
   * Eclipse plugin is available.
   * Please install it into local Eclipse.
   * "Window" > "Preferences" > "Maestro" > "Server Address" > "http://localhost:8080"
